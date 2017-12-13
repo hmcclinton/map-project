@@ -1,0 +1,68 @@
+/*Displays on different devices*/
+@media only screen and (max-width: 500px) {
+    .gridmenu {
+        width:100%;
+    }
+    .gridmain {
+        width:100%;
+    }
+    .gridright {
+        width:100%;
+    }
+}
+
+#inputs {
+    background-color: #FF0000;
+		font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+	  overflow: auto;
+    width: 15%;
+    height: 100%;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	background-color: #008000;
+	color: black
+}
+
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	background-color: #FF0000;
+	color: black
+}
+
+h3 {
+	font-family: fantasy;
+	background-color: #008000;
+}
+
+#map-canvas {
+	height: 80%;
+	length: 80%;
+}
+
+li {
+  cursor: pointer;
+	text-align: center;
+}
+
+html {
+	height: 100%
+}
+
+body {
+    background-color: #008000;
+    height: 100%
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+	  background-color: #FF0000;
+}

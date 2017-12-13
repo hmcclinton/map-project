@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Henry McClinton Map Project</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <input data-bind="textInput: search"/>
+    <div id="map-canvas">
+    </div>
+    <div> <h1>Hotels in Downtown Chicago</h1>
+            <h2> My Hometown </h2>
+    </div>
+    <div id="inputs">
+        <ol data-bind="foreach: menuList">
+            <li data-bind="click: $parent.clickPinpoint">
+              <hr>
+                <p class="name"><span data-bind="text: name"></span></p>
+                <p class="address"><span data-bind="text: address"></span></p>
+              <hr>
+            </li>
+        </ol>
+    </div>
+
+<!-- scripts placed at bottom to increase speed per web optimization project -->
+      <script src="js/knockout-3.4.2.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwD-5MruwdWCU0mz3HVG_2iFeXiOtOZQc&libraries=places&callback=appViewModel.initialize" onerror="googleError()"> </script>
+</body>
+</html>
