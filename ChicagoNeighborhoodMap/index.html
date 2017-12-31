@@ -14,14 +14,14 @@
             <h2> My Hometown </h2>
     </div>
     <div id="inputs">
-        <ol data-bind="foreach: menuList">
+        <ul data-bind="foreach: menuList">
             <li data-bind="click: $parent.clickPinpoint">
               <hr>
                 <p class="name"><span data-bind="text: name"></span></p>
                 <p class="address"><span data-bind="text: address"></span></p>
               <hr>
             </li>
-        </ol>
+        </ul>
     </div>
 
 <!-- scripts placed at bottom to increase speed per web optimization project -->

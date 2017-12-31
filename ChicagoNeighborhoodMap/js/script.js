@@ -151,8 +151,8 @@ function AppViewModel() {
 			infowindow.open(map, marker);
 		})
 
-		////*Fails from Foursquare
-		.failure(function() {
+		////*Fails from Foursquare // made correction per review verified now bounces
+		.fail(function() {
 			alert("\nErrors\n\nFoursquare is not responding correctly");
 		});
 	};

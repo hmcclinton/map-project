@@ -2,9 +2,9 @@
 Right click on index.html and open in your favorite browser
 
 Map is of Chicago Area hotels
-Implemented Foursquare to give information including phone number, twitter, checkins, ratings if available from foursquare
+Implemented Foursquare to give information including phone number, twitter, checkins, and ratings if available from foursquare
 Map also has preloaded locations in Chicago that may be of interest
-Included search box and list of hotels in Chicago to chose different ways to search
+I included a search box and a list of hotels in Chicago to choose different ways to search
 
 ## References ##
 Google API documents
@@ -17,7 +17,7 @@ Mentor assistance
 Foursquare API tools https://developer.foursquare.com/docs/api/getting-started
 
 
-Tried using yelp as 3rd party API but per mentor that wasnt necessary and required several more experienced things
+Tried using yelp as 3rd party API but per mentor that wasn't necessary and required several more experienced things
 ////*Yelp credentials
 // client id = ZzO792cf2U7CbIHlTu0R6A
 // api key = nmQYwwBeOW3veOAJgzbrjtsMHA2RsoT0zZwTV08AhI4SAcq0sIPhRFPPID0q3g0IZdSdFmzGJoLuVvx0K-RwIXhFmIWpstO9BLOSQYLYln93-x5Hn7TnEhmKqZkuWnYx
